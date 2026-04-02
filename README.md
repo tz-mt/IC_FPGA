@@ -1,2 +1,2 @@
 # ic_fpga
-learning
+learning ic and fpga knowledge
