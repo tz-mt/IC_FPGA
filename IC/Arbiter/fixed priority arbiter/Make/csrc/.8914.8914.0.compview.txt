@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1774448690.052084949, "rt":2.73, "ut":0.12, "st":0.18}}
+{"vcselab":{"timestamp_begin":1774448692.852023893, "rt":1.62, "ut":0.15, "st":0.07}}
+{"link":{"timestamp_begin":1774448694.523156873, "rt":0.26, "ut":0.20, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1774448689.724630109}
+{"VCS_COMP_START_TIME": 1774448689.724630109}
+{"VCS_COMP_END_TIME": 1774448694.856889802}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +v2k -debug_access+all -timescale=1ns/1ps -P /home/twmz/Software/Synopsys/verdi/verdi23/share/PLI/VCS/LINUX64/novas.tab /home/twmz/Software/Synopsys/verdi/verdi23/share/PLI/VCS/LINUX64/pli.a -o ./waveform/simv ../rtl/tb_fixed_pri_arb.v ../rtl/fixed_pri_arb.v"}
+{"vcs1": {"peak_mem": 493916}}
+{"vcselab": {"peak_mem": 290300}}

@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/home/twmz/Software/Synopsys/vcs/vcs23/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/home/twmz/Software/Synopsys/vcs/vcs23/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/home/twmz/Software/Synopsys/vcs/vcs23/linux64/lib:/home/twmz/Software/Synopsys/vcs/vcs23/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/home/twmz/Software/Synopsys/vcs/vcs23/linux64/bin/vcsfind_create_index.exe  -z  "./waveform/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" "./waveform/simv.daidir/debug_dump/fsearch/./idents_OG6hWq.xml.gz" "./waveform/simv.daidir/debug_dump/fsearch/./idents_PC3zkE.xml.gz" -o "./waveform/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "./waveform/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "./waveform/simv.daidir/debug_dump/fsearch/fsearch.db"

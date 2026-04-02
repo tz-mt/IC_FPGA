@@ -1,0 +1,77 @@
+Magic 271485
+Revision Verdi_V-2023.12-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1846 338 191 181
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/twmz/IC_FPGA/IC/Arbiter/fixed priority arbiter/Make/waveform/waveform.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 90900.000000
+cursor 20000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 6
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/twmz/IC_FPGA/IC/Arbiter/fixed priority arbiter/Make/waveform/waveform.fsdb"
+addSignal -h 15 /tb_fixed_pri_arb/req[0]
+addSignal -h 15 -holdScope req[1]
+addSignal -h 15 -holdScope req[2]
+addSignal -h 15 -holdScope req[3]
+addGroup "G2"
+addSignal -h 15 /tb_fixed_pri_arb/grant[0]
+addSignal -h 15 -holdScope grant[1]
+addSignal -h 15 -holdScope grant[2]
+addSignal -h 15 -holdScope grant[3]
+addGroup "G3"
+addGroup "G4"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/twmz/IC_FPGA/IC/Arbiter/fixed priority arbiter/Make/waveform/waveform.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb_fixed_pri_arb"
+
+SCOPE_LIST_BEGIN
+"/tb_fixed_pri_arb"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

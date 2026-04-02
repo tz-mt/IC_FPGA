@@ -1,0 +1,13 @@
+*design* DebussyLib (btIdent Verdi_V-2023.12-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    ../rtl/top_tb.v
+    ../rtl/APB_top.v
+    ../rtl/Master.v
+    ../rtl/Slave.v
+
+Highest level modules:
+top_tb
+
+Total	0 error(s),   0 warning(s)

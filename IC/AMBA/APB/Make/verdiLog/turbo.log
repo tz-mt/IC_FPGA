@@ -1,0 +1,3 @@
+Command Line: /home/twmz/Software/Synopsys/verdi/verdi23/platform/LINUXAMD64/bin/Novas -sv ../rtl/top_tb.v ../rtl/APB_top.v ../rtl/Master.v ../rtl/Slave.v -ssf waveform/waveform.fsdb
+uname(Linux ubuntu 5.15.0-139-generic #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025 x86_64)
+au time 33486.898935 47.154061 125.385409 delta 305057792 305057792 total 934670336 934670336

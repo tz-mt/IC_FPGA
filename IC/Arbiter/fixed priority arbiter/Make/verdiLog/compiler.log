@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi_V-2023.12-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    ../rtl/tb_fixed_pri_arb.v
+    ../rtl/fixed_pri_arb.v
+
+Highest level modules:
+tb_fixed_pri_arb
+
+Total	0 error(s),   0 warning(s)
